@@ -1160,9 +1160,9 @@ class ProfileAnalyticalScreen extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          _LegendDot(color: Colors.blue, label: tr('On-Time Submission', 'ส่งตรงเวลา')),
+                          _LegendDot(color: Colors.blue, label: tr('On-Time Submission', 'ส่งตรงเวลา เก่งมาก')),
                           const SizedBox(width: 16),
-                          _LegendDot(color: Colors.amber, label: tr('Late Submission', 'ส่งช้า')),
+                          _LegendDot(color: Colors.amber, label: tr('Late Submission', 'ส่งช้ามาก')),
                         ],
                       ),
                       const SizedBox(height: 20),
